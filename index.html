@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CALCULATE for PE</title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+}
+body{
+text-align:center;
+font-family:Arial,sans-serif;
+}
+.head{
+font-size:40px;
+position:static;
+background:linear-gradient(yellow,orange);
+border-radius:2rem;
+margin-left:15%;
+margin-right:15%;
+color:white;
+margin-top:20px;
+padding:20px;
+}
+.formula {
+display:inline-block;
+position:absolute;
+bottom:10%;
+left:10%;
+right:10%;
+}
+.mid{
+color:yellow;
+font-size:2rem;
+position:absolute;
+top:60%;
+left:20%;
+right:20%;
+}
+footer {
+position:absolute;
+left:20%;
+right:20%;
+bottom:5%;
+font-size:10px;
+}
+.last{
+height:4px;
+width:100%;
+background:linear-gradient(yellow,orange);
+position:absolute;
+bottom:1px;
+}
+.verylast {
+color:grey;
+font-size:20px;
+}
+a{
+color:grey;
+text-decoration:none;
+}
+
+</style>
+</head>
+<body>
+<div class="head" >
+<h1>Potential Energy Calculator</h1>
+</div>
+<div class="mid" >
+<p><a href="#" >refresh to restart</a></p>
+</div>
+<div class="formula" >
+<h2> <i>PE=mgh </i></h2>
+</div>
+<footer>
+by:<a href="https://www.facebook.com/nheojhon" >nheo_jhon</a>
+</footer>
+<div class="last" ><p></p></div>
+<div class="verylast" ><h3>thank you for using this calculator</h3></div>
+<script type="text/javascript">
+alert('welcome to the potential energy calculator created by Nheo_Jhon')
+alert('pls dont type any letters!! this webpage can only understand NUMBERS so dont type any (kg or kilogram,m or meters) there is a high chance that the answer will be an error!!')
+alert('the formula for getting the POTENTIAL ENERGY of an object is PE=mgh')
+m=prompt(' acording to the problem, what is the mass of the object in kg.?')
+alert('the gravity is 9.8 meters per second square soo, g=9.8 meters per second square on earth')
+g=9.8
+h=prompt(' acording to the problem,what is the distance in meters?')
+j=('  Joules')
+mgh=('  Nm')
+PE=m*g*h+mgh
+alert('the answer isssss......')
+alert(PE)
+alert('or')
+KEj=m*g*h+j
+alert(KEj)
+</script>
+</body>
+</html>
